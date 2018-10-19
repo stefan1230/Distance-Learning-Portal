@@ -49,8 +49,8 @@ class User_model extends CI_Model{
         $config['smtp_host']    = 'ssl://smtp.gmail.com';
         $config['smtp_port']    = '465';
         $config['smtp_timeout'] = '4';
-        $config['smtp_user']    = 'stefan.stanislaus@gmail.com';
-        $config['smtp_pass']    = 'god bless@1';
+        $config['smtp_user']    = '';//your mail
+        $config['smtp_pass']    = '';//mail password
         $config['charset']    = 'utf-8';
         $config['newline']    = "\r\n";
         $config['mailtype'] = 'html'; // or html
